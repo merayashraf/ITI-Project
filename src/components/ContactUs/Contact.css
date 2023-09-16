@@ -1,0 +1,27 @@
+.contacth1{
+    display: flex;
+    justify-content: center;
+    color: #DDDBCB;
+    margin-top: 2%;
+}
+.name{
+  color: #DDDBCB;
+}
+.contactrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    color: #DDDBCB;
+  }
+  .contactrow .btn-primary {
+    background-color: #008080 !important;
+    color: #DDDBCB;
+  }
+  .contactrow .btn-primary:hover{
+    background-color: #DDDBCB !important;
+    color: black;
+  }
+  .contactrow .form-group {
+    margin-bottom: 20px;
+  }

@@ -1,0 +1,51 @@
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .pagination-button {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .pagination-button button {
+    background-color: #008080;
+    color: #DDDBCB;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .pagination-button button:hover {
+    background-color: #005555;
+  }
+  
+  .pagination-button button:disabled {
+    background-color: #999; 
+    cursor: not-allowed;
+  }
+.movie-element button{
+    margin-bottom: 20px;
+    border: 1px solid #DDDBCB;
+    padding: 10px;
+    background-color: #008080;
+    
+  }
+.movie-element button:hover{
+    color: black;
+    background-color: #DDDBCB;
+  }
+  .card-body{
+    background-color: black;
+    border: none;
+  }
+  .d-flex{
+    color: #DDDBCB;
+  }
+  .popmovies{
+    color: #DDDBCB;
+  }

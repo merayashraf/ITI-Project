@@ -1,0 +1,32 @@
+.containerDetails{
+    height: 80vh;
+}
+.Movietitle{
+    display: flex;
+    color: #DDDBCB;
+    justify-content: center;
+    align-self: center;
+}
+.containerDetails img{
+    display: inline;
+    width: 30%;
+    height: 30%;
+}
+.image-and-video-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    margin-top: 20px;
+  }
+  
+  .cardd-img-top {
+    max-width: 50%;
+  }
+  
+  .Vid {
+    max-width: 45%;
+  }
+  .txt{
+    color: #DDDBCB;
+  }

@@ -1,0 +1,45 @@
+.footer {
+  background-color: #008080;
+  color: #DDDBCB;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  bottom: 0;
+  width: 100%;
+}
+
+.icon {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.contact-button {
+  background-color: transparent;
+  color: #DDDBCB;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 3px solid #DDDBCB;
+  cursor: pointer;
+}
+
+.contact-button:hover {
+  background-color: #DDDBCB;
+  color: black;
+}
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+}
